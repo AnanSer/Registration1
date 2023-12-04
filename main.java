@@ -4,7 +4,7 @@ import org.w3c.dom.ls.LSOutput;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.io.IOException;
-public class main {
+public class Main {
     public static void main(String arg[]) {
         Scanner scanner = new Scanner(System.in);
         InputRegistration register = new InputRegistration();
@@ -15,7 +15,7 @@ public class main {
                 System.out.println("Welcome to registration Demo");
                 System.out.println("Enter 1 for new registration: ");
                 System.out.println("Enter 2 to display the registered students: ");
-                System.out.println("Enter 3 for new registration: ");
+                System.out.println("Enter 3 to exit: ");
                 System.out.print(">> ");
                 int choose = scanner.nextInt();
 
